@@ -1,0 +1,35 @@
+.TTTGrid{
+    flex:content;
+    flex-wrap:wrap;
+}
+
+.TTTX {
+    background-image: url('../images/crab.jpg');
+    background-size: contain;
+    background-position: center center;
+    width: 100px;
+    height: 100px;
+    color: red;
+    
+}
+
+.TTTO {
+    color: blue;
+    background-image: url('../images/hook.jpg');
+    background-size: contain;
+    background-position: center center;
+    width: 100px;
+    height: 100px;
+
+}
+.TTTDefault {
+    background-image: url('../images/wave.jpg');
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+
+}
+
+.TTTGrid:hover {
+    box-shadow: 0px 0px 14px;
+}
