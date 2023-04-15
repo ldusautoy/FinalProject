@@ -16,6 +16,8 @@ export const TTTGrid = ({value, onClick}) => {
     const style = determineStyle(value)
     
     return(
-        <button className ={style} onClick={onClick}></button>
+        <div className={style}>
+        <button className={style} onClick={onClick}></button>
+        </div>
     )
 }

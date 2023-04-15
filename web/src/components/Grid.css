@@ -1,6 +1,16 @@
 .grid {
+    /*display: grid;
+    gap: 1px;
+    grid-template-columns: max-repeat(3, 1fr);
+    /*table-layout: fixed;*/
+    /*grid-template-columns: repeat(3, 5rem);
+    /*place-items: left;
+    justify-content: center;*/
     display: grid;
-    grid-template-columns: repeat(3, 6rem);
-    place-items: center;
-    justify-content: center;
+    grid-template-rows: 120px 120px 120px;
+    grid-template-columns: 120px 120px 120px;
+    gap: 10px;
+    margin-top: 25px;
+    
+    
 }

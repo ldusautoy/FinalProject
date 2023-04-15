@@ -1,0 +1,20 @@
+.Nav{
+    
+    width: 100%;
+    background-color:aquamarine;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left:8px;
+}
+.navLink{
+    margin-right: 15px;
+    font-weight: 600;
+    font-size: 30px;
+    color: blue;
+}
+.navLink:hover{
+    margin-right: 15px;
+    font-weight: 600;
+    font-size: 30px;
+    color: rgb(93, 93, 243);
+}

@@ -1,33 +1,39 @@
 .TTTGrid{
-    flex:content;
-    flex-wrap:wrap;
-}
-
-.TTTX {
-    background-image: url('../images/crab.jpg');
-    background-size: contain;
-    background-position: center center;
-    width: 100px;
-    height: 100px;
-    color: red;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
 }
+body {
+    display: flex;
+    justify-content: center;
+    width:100%;
+  }
 
-.TTTO {
-    color: blue;
-    background-image: url('../images/hook.jpg');
+.TTTX {
+    background-image: url('./images/crab.jpg');
     background-size: contain;
     background-position: center center;
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
+    color: red;   
+}
 
+.TTTO {   
+    color: blue;
+    background-image: url('./images/hook.jpg');
+    background-size: contain;
+    background-position: center center;
+    width: 120px;
+    height: 120px;
 }
 .TTTDefault {
-    background-image: url('../images/wave.jpg');
+    flex: 0 0 32%; 
+    background-image: url('./images/wave.jpg');
     background-size: cover;
-    width: 100px;
-    height: 100px;
-
+    width: 120px;
+    height: 120px;
 }
 
 .TTTGrid:hover {
