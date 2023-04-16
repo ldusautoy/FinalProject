@@ -43,7 +43,6 @@ li::before {
 	border-radius: 100%;
 	border: .1em solid hsl(0, 0%, 20%);
 	background-color: hsl(200, 100%, 30%);
-	/* hsl(200, 100%, 50%);*/
 	transition: .125s ease-in-out;
 	box-shadow: 0 0 .1rem .1rem hsla(0, 0%, 50%, .25);
 	animation: pulse 1s 1s infinite linear alternate;
