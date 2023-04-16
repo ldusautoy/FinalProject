@@ -1,0 +1,250 @@
+* {
+	margin: 0;
+	padding: 0;
+	cursor: default;
+	box-sizing: border-box;
+	text-rendering: optimizeLegibility;
+	width: 100%;
+	align-items: center;
+	align-content: center;
+}
+
+ul {
+	line-height: 1.5;
+	margin: 2vmin 20vmin;
+	list-style: none;
+}
+
+li {
+	position: relative;
+	font-weight: 200;
+	transition: .25s ease-in-out;
+	color: #73CDE7;
+}
+
+.pressed li:hover {
+	color: #73CDE7;
+	text-shadow: 1px 1px 0px hsl(0, 0%, 5%), -1px -1px 0px hsl(0, 0%, 15%);
+}
+
+li:hover {
+	color: white;
+}
+
+li::before {
+	content: "";
+	position: absolute;
+	z-index: 1;
+	left: -.75em;
+	top: 46%;
+	width: .3em;
+	height: .3em;
+	box-sizing: border-box;
+	border-radius: 100%;
+	border: .1em solid hsl(0, 0%, 20%);
+	background-color: hsl(200, 100%, 30%);
+	/* hsl(200, 100%, 50%);*/
+	transition: .125s ease-in-out;
+	box-shadow: 0 0 .1rem .1rem hsla(0, 0%, 50%, .25);
+	animation: pulse 1s 1s infinite linear alternate;
+}
+
+
+@keyframes pulse {
+	from {
+		background-color: hsl(200, 100%, 50%);
+	}
+
+	to {
+		background-color: hsl(200, 0%, 20%);
+	}
+}
+
+li {
+	align-items: center;
+}
+
+li:hover::before {
+	border-width: 0;
+	background-color: #73CDE7;
+	box-shadow: 0 0 .5rem .1rem #73CDE7;
+	animation: none;
+}
+
+h1 {
+	font-weight: 8;
+	margin: 2vmin 20vmin;
+}
+
+.pressed {
+	color: hsl(0, 0%, 100%);
+
+}
+
+.pressedNew {
+	color: hsl(0, 0%, 100%);
+	text-align: center;
+}
+
+
+.sea {
+	width: 700%;
+	height: 40vh;
+	background-image: url('./images/seafloor2.jpg');
+	background-size: contain;
+	background-position: center;
+	animation: animate 100s linear infinite;
+}
+
+@keyframes animate {
+	100% {
+		transform: translateX(-3400px);
+	}
+}
+
+/*.crab {
+	display: block;
+	width: 300px;
+	height: 300px;
+}*/
+
+
+
+
+
+.subcat {
+	margin: 10%;
+}
+
+
+@keyframes strike {
+	0% {
+		width: 0;
+	}
+
+	100% {
+		width: 100%;
+	}
+}
+
+.strike {
+	position: relative;
+	align-content: center;
+	font-weight: 400;
+	margin: 15%;
+
+}
+
+.strike::after {
+	content: ' ';
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 100%;
+	height: 2px;
+	background: black;
+	animation-name: strike;
+	animation-duration: 2s;
+	animation-timing-function: linear;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+	animation-delay: 0ms;
+
+}
+
+@keyframes strike2 {
+	0% {
+		width: 0;
+	}
+
+	100% {
+		width: 100%;
+	}
+}
+
+.strike2 {
+	position: relative;
+	align-content: center;
+	font-weight: 400;
+	margin: 15%;
+}
+
+.strike2::after {
+	content: ' ';
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 100%;
+	height: 2px;
+	background: black;
+	animation-name: strike;
+	animation-duration: 3s;
+	animation-iteration-count: 1;
+	animation-fill-mode: backwards;
+	animation-delay: 1500ms;
+
+}
+
+@keyframes strike3 {
+	0% {
+		width: 0;
+	}
+
+	100% {
+		width: 100%;
+	}
+}
+
+.strike3 {
+	position: relative;
+	align-content: center;
+	font-weight: 400;
+	margin: 15%;
+}
+
+.strike3::after {
+	content: ' ';
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 100%;
+	height: 2px;
+	background: black;
+	animation-name: strike;
+	animation-duration: 3s;
+	animation-iteration-count: 1;
+	animation-fill-mode: backwards;
+	animation-delay: 4s;
+}
+
+@keyframes strike4 {
+	0% {
+		width: 0;
+	}
+
+	100% {
+		width: 100%;
+	}
+}
+
+.strike4 {
+	position: relative;
+	align-content: center;
+	font-weight: 400;
+	margin: 15%;
+}
+
+.strike4::after {
+	content: ' ';
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 100%;
+	height: 2px;
+	background: black;
+	animation-name: strike;
+	animation-duration: 3s;
+	animation-iteration-count: 1;
+	animation-fill-mode: backwards;
+	animation-delay: 6s;
+}

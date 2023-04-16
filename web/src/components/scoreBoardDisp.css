@@ -1,48 +1,48 @@
 .scoreBoardDisp {
- display: flex;
- flex-direction: row;
- align-items: center;
- justify-content: space-evenly;
- width: 20rem;
- font-size: 1.5em;
- background-color: aquamarine;
- margin: 6px auto;
- margin-bottom: 30px;
- box-shadow: 0px 0px 10px grey;
- border-radius: 25px;
- font-weight: bold;
- }
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-evenly;
+   width: 20rem;
+   font-size: 1.5em;
+   background-color: #73CDE7;
+   margin: 6px auto;
+   margin-bottom: 0px;
+   box-shadow: 0px 0px 10px grey;
+   border-radius: 25px;
+   font-weight: bold;
+}
 
- .score {
-    width: 100%;
-    text-align: center;
-    padding: 1.25rem 0;
- }
+.score {
+   width: 100%;
+   text-align: center;
+   padding: 1rem 0;
+}
 
- .crabscore {
-    color: orangered;
-    border-bottom: 5px solid orangered;
-    border-top: 5px solid orangered;
-    border-left: 5px solid orangered;
-    border-radius: 25px 0 0 25px;
- }
+.crabscore {
+   color: orangered;
+   border-bottom: 5px solid orangered;
+   border-top: 5px solid orangered;
+   border-left: 5px solid orangered;
+   border-radius: 25px 0 0 25px;
+}
 
- .hookscore {
-    color: grey;
-    border-bottom: 5px solid grey;
-    border-top: 5px solid grey;
-    border-right: 5px solid grey;
-    border-radius: 0 25px 25px 0;
- }
+.hookscore {
+   color: grey;
+   border-bottom: 5px solid grey;
+   border-top: 5px solid grey;
+   border-right: 5px solid grey;
+   border-radius: 0 25px 25px 0;
+}
 
- .crabnotplaying {
-    border-bottom: 5px solid transparent;
-    border-top:5px solid transparent;
-    border-left: 5px solid transparent;
- }
+.crabnotplaying {
+   border-bottom: 5px solid transparent;
+   border-top: 5px solid transparent;
+   border-left: 5px solid transparent;
+}
 
- .hooknotplaying {
-    border-bottom: 5px solid transparent;
-    border-top:5px solid transparent;
-    border-right: 5px solid transparent;
- }
+.hooknotplaying {
+   border-bottom: 5px solid transparent;
+   border-top: 5px solid transparent;
+   border-right: 5px solid transparent;
+}

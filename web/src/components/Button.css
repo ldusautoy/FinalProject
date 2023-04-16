@@ -1,36 +1,45 @@
-.button{
-    background-color: rgb(31, 85, 151) ;
-    border-top: 10px solid;
-    border-top-color: rgb(56, 146, 255);
-    border-bottom: 10px solid;
-    border-bottom-color: rgb(15, 42, 75);
-    font-size: 20px;
-    color: yellow;
-    font-weight: 900;
-    margin: 8px;
+.button {
+    padding: 10px;
     padding-left: 10px;
     padding-right: 10px;
-    padding-top: 100px;
-    padding-bottom:100px;
-    border-radius: 50%;
+    border: 3px solid;
+    border-color: #73CDE7;
     width: 200px;
-    
-    
+    background-color: transparent;
+    font-weight: 400;
+    color: #73CDE7;
+    margin-top: 30px;
+    cursor: pointer;
+    border-radius: 30px;
+    font-weight: 600;
+    font: 100;
+
+
+
 }
+
 .button:hover {
-    background-color:#8700ad;
-    color: red;
-    border-radius: 0%;
-    width: 200px;
-    transition: 0.4s;
-    transition: 0.70s;
-    -webkit-transition: 0.70s;
-    -moz-transition: 0.70s;
-    -ms-transition: 0.70s;
-    -o-transition: 0.70s;
-    -webkit-transform: rotate(360deg);
-    -moz-transform: rotate(360deg);
-    -o-transform: rotate(360deg);
-    -ms-transform: rotate(360deg);
-    transform: rotate(360deg);
+    background-color: white;
+    color: #075989;
+    transition: 0.3s;
+
+}
+
+.PlayBttn {
+    background-image: url("./images/transparent.png");
+    background-color: transparent;
+    width: 500px;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: transparent;
+    color: #8700ad;
+    cursor: pointer;
+}
+
+.PlayBttn:hover {
+    transition: 1s;
+    transform: rotate(8deg);
+    transform: rotate(8deg);
 }

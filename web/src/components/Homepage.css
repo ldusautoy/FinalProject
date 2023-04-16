@@ -1,0 +1,66 @@
+* {
+	margin: 0;
+	padding: 0;
+	cursor: default;
+	box-sizing: border-box;
+	text-rendering: optimizeLegibility;
+}
+
+.containerNew {
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+.container {
+	position: relative;
+	width: 100%;
+}
+
+p {
+	text-align: center;
+	color: white;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-weight: 400;
+	font-size: large;
+}
+
+.bg {
+	position: relative;
+	z-index: 1;
+	height: 100%;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.main {
+	width: 100%;
+	min-width: screen;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	justify-items: center;
+	align-items: center;
+	background-color: #075989;
+	color: #73CDE7;
+	font-weight: 300;
+}
+
+@media screen and (max-width: 1000px) {
+	.main {
+		width: 100%;
+		overflow: hidden;
+		margin: 0 -150px 0 -150px;
+	}
+}
+
+.wordInputContainer {
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}

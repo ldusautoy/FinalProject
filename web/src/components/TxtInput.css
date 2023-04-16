@@ -1,0 +1,20 @@
+.TxtInLbl {
+    min-width: 100px;
+    text-align: center;
+    color: #73CDE7;
+    font-weight: 600;
+}
+
+.TxtIn {
+    width: 200px;
+}
+
+.LabelContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+
+}

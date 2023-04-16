@@ -1,8 +1,8 @@
 import React from "react";
-import "./ResetButton.css"
+import "./Button.css"
 
-export const ResetButton = ({resetGrid}) => {
+export const ResetButton = ({ resetGrid }) => {
     return (
-        <button className="resetbttn" onClick={resetGrid}>Reset</button>
+        <button className="button" onClick={resetGrid}>Reset</button>
     )
 }
